@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D73630E145CF77100AA6DFD /* TapableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D73630D145CF77100AA6DFD /* TapableView.m */; };
+		3D736310145CFF2A00AA6DFD /* simpleton face.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D73630F145CFF2A00AA6DFD /* simpleton face.png */; };
+		3D736317145D053F00AA6DFD /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D736311145D053F00AA6DFD /* Icon-72.png */; };
+		3D736318145D053F00AA6DFD /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D736312145D053F00AA6DFD /* Icon-Small-50.png */; };
+		3D736319145D053F00AA6DFD /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D736313145D053F00AA6DFD /* Icon-Small.png */; };
+		3D73631A145D053F00AA6DFD /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D736314145D053F00AA6DFD /* Icon-Small@2x.png */; };
+		3D73631B145D053F00AA6DFD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D736315145D053F00AA6DFD /* Icon.png */; };
+		3D73631C145D053F00AA6DFD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D736316145D053F00AA6DFD /* Icon@2x.png */; };
+		3DD43DED145CE8C30024E772 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD43DEC145CE8C30024E772 /* UIKit.framework */; };
+		3DD43DEF145CE8C30024E772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD43DEE145CE8C30024E772 /* Foundation.framework */; };
+		3DD43DF1145CE8C30024E772 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD43DF0145CE8C30024E772 /* CoreGraphics.framework */; };
+		3DD43DF7145CE8C30024E772 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DD43DF5145CE8C30024E772 /* InfoPlist.strings */; };
+		3DD43DF9145CE8C30024E772 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD43DF8145CE8C30024E772 /* main.m */; };
+		3DD43DFD145CE8C30024E772 /* SimpletonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD43DFC145CE8C30024E772 /* SimpletonAppDelegate.m */; };
+		3DD43E00145CE8C30024E772 /* SimpletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD43DFF145CE8C30024E772 /* SimpletonViewController.m */; };
+		3DD43E03145CE8C30024E772 /* SimpletonViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD43E01145CE8C30024E772 /* SimpletonViewController_iPhone.xib */; };
+		3DD43E06145CE8C30024E772 /* SimpletonViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD43E04145CE8C30024E772 /* SimpletonViewController_iPad.xib */; };
+		3DD43E0E145CE8C40024E772 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD43E0D145CE8C40024E772 /* SenTestingKit.framework */; };
+		3DD43E0F145CE8C40024E772 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD43DEC145CE8C30024E772 /* UIKit.framework */; };
+		3DD43E10145CE8C40024E772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD43DEE145CE8C30024E772 /* Foundation.framework */; };
+		3DD43E11145CE8C40024E772 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD43DF0145CE8C30024E772 /* CoreGraphics.framework */; };
+		3DD43E19145CE8C40024E772 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DD43E17145CE8C40024E772 /* InfoPlist.strings */; };
+		3DD43E1C145CE8C40024E772 /* SimpletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD43E1B145CE8C40024E772 /* SimpletonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DD43E12145CE8C40024E772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DD43DDF145CE8C30024E772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD43DE7145CE8C30024E772;
+			remoteInfo = Simpleton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D73630C145CF77100AA6DFD /* TapableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapableView.h; sourceTree = "<group>"; };
+		3D73630D145CF77100AA6DFD /* TapableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapableView.m; sourceTree = "<group>"; };
+		3D73630F145CFF2A00AA6DFD /* simpleton face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "simpleton face.png"; path = "../images/simpleton face.png"; sourceTree = "<group>"; };
+		3D736311145D053F00AA6DFD /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../images/Icon-72.png"; sourceTree = "<group>"; };
+		3D736312145D053F00AA6DFD /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "../images/Icon-Small-50.png"; sourceTree = "<group>"; };
+		3D736313145D053F00AA6DFD /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../images/Icon-Small.png"; sourceTree = "<group>"; };
+		3D736314145D053F00AA6DFD /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../images/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		3D736315145D053F00AA6DFD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../images/Icon.png; sourceTree = "<group>"; };
+		3D736316145D053F00AA6DFD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../images/Icon@2x.png"; sourceTree = "<group>"; };
+		3DD43DE8145CE8C30024E772 /* Simpleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simpleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD43DEC145CE8C30024E772 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3DD43DEE145CE8C30024E772 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DD43DF0145CE8C30024E772 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DD43DF4145CE8C30024E772 /* Simpleton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simpleton-Info.plist"; sourceTree = "<group>"; };
+		3DD43DF6145CE8C30024E772 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DD43DF8145CE8C30024E772 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DD43DFA145CE8C30024E772 /* Simpleton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simpleton-Prefix.pch"; sourceTree = "<group>"; };
+		3DD43DFB145CE8C30024E772 /* SimpletonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpletonAppDelegate.h; sourceTree = "<group>"; };
+		3DD43DFC145CE8C30024E772 /* SimpletonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpletonAppDelegate.m; sourceTree = "<group>"; };
+		3DD43DFE145CE8C30024E772 /* SimpletonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpletonViewController.h; sourceTree = "<group>"; };
+		3DD43DFF145CE8C30024E772 /* SimpletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpletonViewController.m; sourceTree = "<group>"; };
+		3DD43E02145CE8C30024E772 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SimpletonViewController_iPhone.xib; sourceTree = "<group>"; };
+		3DD43E05145CE8C30024E772 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SimpletonViewController_iPad.xib; sourceTree = "<group>"; };
+		3DD43E0C145CE8C40024E772 /* SimpletonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpletonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD43E0D145CE8C40024E772 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3DD43E16145CE8C40024E772 /* SimpletonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpletonTests-Info.plist"; sourceTree = "<group>"; };
+		3DD43E18145CE8C40024E772 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DD43E1A145CE8C40024E772 /* SimpletonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpletonTests.h; sourceTree = "<group>"; };
+		3DD43E1B145CE8C40024E772 /* SimpletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpletonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD43DE5145CE8C30024E772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD43DED145CE8C30024E772 /* UIKit.framework in Frameworks */,
+				3DD43DEF145CE8C30024E772 /* Foundation.framework in Frameworks */,
+				3DD43DF1145CE8C30024E772 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD43E08145CE8C40024E772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD43E0E145CE8C40024E772 /* SenTestingKit.framework in Frameworks */,
+				3DD43E0F145CE8C40024E772 /* UIKit.framework in Frameworks */,
+				3DD43E10145CE8C40024E772 /* Foundation.framework in Frameworks */,
+				3DD43E11145CE8C40024E772 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D736309145CF34400AA6DFD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3D736311145D053F00AA6DFD /* Icon-72.png */,
+				3D736312145D053F00AA6DFD /* Icon-Small-50.png */,
+				3D736313145D053F00AA6DFD /* Icon-Small.png */,
+				3D736314145D053F00AA6DFD /* Icon-Small@2x.png */,
+				3D736315145D053F00AA6DFD /* Icon.png */,
+				3D736316145D053F00AA6DFD /* Icon@2x.png */,
+				3D73630F145CFF2A00AA6DFD /* simpleton face.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3DD43DDD145CE8C30024E772 = {
+			isa = PBXGroup;
+			children = (
+				3D736309145CF34400AA6DFD /* Images */,
+				3DD43DF2145CE8C30024E772 /* Simpleton */,
+				3DD43E14145CE8C40024E772 /* SimpletonTests */,
+				3DD43DEB145CE8C30024E772 /* Frameworks */,
+				3DD43DE9145CE8C30024E772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DD43DE9145CE8C30024E772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD43DE8145CE8C30024E772 /* Simpleton.app */,
+				3DD43E0C145CE8C40024E772 /* SimpletonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD43DEB145CE8C30024E772 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DD43DEC145CE8C30024E772 /* UIKit.framework */,
+				3DD43DEE145CE8C30024E772 /* Foundation.framework */,
+				3DD43DF0145CE8C30024E772 /* CoreGraphics.framework */,
+				3DD43E0D145CE8C40024E772 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DD43DF2145CE8C30024E772 /* Simpleton */ = {
+			isa = PBXGroup;
+			children = (
+				3DD43DFB145CE8C30024E772 /* SimpletonAppDelegate.h */,
+				3DD43DFC145CE8C30024E772 /* SimpletonAppDelegate.m */,
+				3DD43DFE145CE8C30024E772 /* SimpletonViewController.h */,
+				3DD43DFF145CE8C30024E772 /* SimpletonViewController.m */,
+				3DD43E01145CE8C30024E772 /* SimpletonViewController_iPhone.xib */,
+				3DD43E04145CE8C30024E772 /* SimpletonViewController_iPad.xib */,
+				3DD43DF3145CE8C30024E772 /* Supporting Files */,
+				3D73630C145CF77100AA6DFD /* TapableView.h */,
+				3D73630D145CF77100AA6DFD /* TapableView.m */,
+			);
+			path = Simpleton;
+			sourceTree = "<group>";
+		};
+		3DD43DF3145CE8C30024E772 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DD43DF4145CE8C30024E772 /* Simpleton-Info.plist */,
+				3DD43DF5145CE8C30024E772 /* InfoPlist.strings */,
+				3DD43DF8145CE8C30024E772 /* main.m */,
+				3DD43DFA145CE8C30024E772 /* Simpleton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DD43E14145CE8C40024E772 /* SimpletonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD43E1A145CE8C40024E772 /* SimpletonTests.h */,
+				3DD43E1B145CE8C40024E772 /* SimpletonTests.m */,
+				3DD43E15145CE8C40024E772 /* Supporting Files */,
+			);
+			path = SimpletonTests;
+			sourceTree = "<group>";
+		};
+		3DD43E15145CE8C40024E772 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DD43E16145CE8C40024E772 /* SimpletonTests-Info.plist */,
+				3DD43E17145CE8C40024E772 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DD43DE7145CE8C30024E772 /* Simpleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD43E1F145CE8C40024E772 /* Build configuration list for PBXNativeTarget "Simpleton" */;
+			buildPhases = (
+				3DD43DE4145CE8C30024E772 /* Sources */,
+				3DD43DE5145CE8C30024E772 /* Frameworks */,
+				3DD43DE6145CE8C30024E772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Simpleton;
+			productName = Simpleton;
+			productReference = 3DD43DE8145CE8C30024E772 /* Simpleton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DD43E0B145CE8C40024E772 /* SimpletonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD43E22145CE8C40024E772 /* Build configuration list for PBXNativeTarget "SimpletonTests" */;
+			buildPhases = (
+				3DD43E07145CE8C40024E772 /* Sources */,
+				3DD43E08145CE8C40024E772 /* Frameworks */,
+				3DD43E09145CE8C40024E772 /* Resources */,
+				3DD43E0A145CE8C40024E772 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD43E13145CE8C40024E772 /* PBXTargetDependency */,
+			);
+			name = SimpletonTests;
+			productName = SimpletonTests;
+			productReference = 3DD43E0C145CE8C40024E772 /* SimpletonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DD43DDF145CE8C30024E772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3DD43DE2145CE8C30024E772 /* Build configuration list for PBXProject "Simpleton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DD43DDD145CE8C30024E772;
+			productRefGroup = 3DD43DE9145CE8C30024E772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD43DE7145CE8C30024E772 /* Simpleton */,
+				3DD43E0B145CE8C40024E772 /* SimpletonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DD43DE6145CE8C30024E772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD43DF7145CE8C30024E772 /* InfoPlist.strings in Resources */,
+				3DD43E03145CE8C30024E772 /* SimpletonViewController_iPhone.xib in Resources */,
+				3DD43E06145CE8C30024E772 /* SimpletonViewController_iPad.xib in Resources */,
+				3D736310145CFF2A00AA6DFD /* simpleton face.png in Resources */,
+				3D736317145D053F00AA6DFD /* Icon-72.png in Resources */,
+				3D736318145D053F00AA6DFD /* Icon-Small-50.png in Resources */,
+				3D736319145D053F00AA6DFD /* Icon-Small.png in Resources */,
+				3D73631A145D053F00AA6DFD /* Icon-Small@2x.png in Resources */,
+				3D73631B145D053F00AA6DFD /* Icon.png in Resources */,
+				3D73631C145D053F00AA6DFD /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD43E09145CE8C40024E772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD43E19145CE8C40024E772 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DD43E0A145CE8C40024E772 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD43DE4145CE8C30024E772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD43DF9145CE8C30024E772 /* main.m in Sources */,
+				3DD43DFD145CE8C30024E772 /* SimpletonAppDelegate.m in Sources */,
+				3DD43E00145CE8C30024E772 /* SimpletonViewController.m in Sources */,
+				3D73630E145CF77100AA6DFD /* TapableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD43E07145CE8C40024E772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD43E1C145CE8C40024E772 /* SimpletonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DD43E13145CE8C40024E772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD43DE7145CE8C30024E772 /* Simpleton */;
+			targetProxy = 3DD43E12145CE8C40024E772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DD43DF5145CE8C30024E772 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD43DF6145CE8C30024E772 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3DD43E01145CE8C30024E772 /* SimpletonViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD43E02145CE8C30024E772 /* en */,
+			);
+			name = SimpletonViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		3DD43E04145CE8C30024E772 /* SimpletonViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD43E05145CE8C30024E772 /* en */,
+			);
+			name = SimpletonViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		3DD43E17145CE8C40024E772 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD43E18145CE8C40024E772 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DD43E1D145CE8C40024E772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DD43E1E145CE8C40024E772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DD43E20145CE8C40024E772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simpleton/Simpleton-Prefix.pch";
+				INFOPLIST_FILE = "Simpleton/Simpleton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3DD43E21145CE8C40024E772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simpleton/Simpleton-Prefix.pch";
+				INFOPLIST_FILE = "Simpleton/Simpleton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3DD43E23145CE8C40024E772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simpleton.app/Simpleton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simpleton/Simpleton-Prefix.pch";
+				INFOPLIST_FILE = "SimpletonTests/SimpletonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3DD43E24145CE8C40024E772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simpleton.app/Simpleton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simpleton/Simpleton-Prefix.pch";
+				INFOPLIST_FILE = "SimpletonTests/SimpletonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DD43DE2145CE8C30024E772 /* Build configuration list for PBXProject "Simpleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD43E1D145CE8C40024E772 /* Debug */,
+				3DD43E1E145CE8C40024E772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD43E1F145CE8C40024E772 /* Build configuration list for PBXNativeTarget "Simpleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD43E20145CE8C40024E772 /* Debug */,
+				3DD43E21145CE8C40024E772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD43E22145CE8C40024E772 /* Build configuration list for PBXNativeTarget "SimpletonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD43E23145CE8C40024E772 /* Debug */,
+				3DD43E24145CE8C40024E772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DD43DDF145CE8C30024E772 /* Project object */;
+}
